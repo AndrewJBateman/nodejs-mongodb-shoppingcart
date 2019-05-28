@@ -1,11 +1,12 @@
 const mongodb = require('mongodb');
 const MongoClient = mongodb.MongoClient;
 
-let _db;
+let _db; //_ indicates it is only used internally, in this file
 
+//mongodb+srv://user1:@cluster0-kaj5u.azure.mongodb.net/admin
 const mongoConnect = callback => {
   MongoClient.connect(
-    'mongodb+srv://user1:mongodbpassword01AA!@cluster0-kaj5u.azure.mongodb.net/admin', { useNewUrlParser: true }
+    'mongodb+srv://username:password@cluster0-kaj5u.azure.mongodb.net/shop?retryWrites=true', { useNewUrlParser: true }
   )
     .then(client => {
       console.log('Connected!');
@@ -13,7 +14,7 @@ const mongoConnect = callback => {
       callback();
     })
     .catch(err => {
-      console.log(err);
+      console.log(err);	
       throw err;
     });
 };
