@@ -1,14 +1,15 @@
 # Node.js, mongoDB Shopping Cart
 
 * Code to learn to learn Node.js. This is part of a [Udemy NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)](https://www.udemy.com/nodejs-the-complete-guide/).
-
 * Section 7: Model View Controller (MVC): separation of concerns.
-
 * Section 8: Enhancing the App
-
 * Section 9: Dynamic Routes and Advanced Models
+* **Note:** to open web links in a new window use: _ctrl+click on link_
 
-**Note: to open web links in a new window use: _ctrl+click on link_**
+![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/nodejs-mongodb-shoppingcart?style=plastic)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/nodejs-mongodb-shoppingcart?style=plastic)
+![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/nodejs-mongodb-shoppingcart?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AndrewJBateman/nodejs-mongodb-shoppingcart?style=plastic)
 
 ## Table of contents
 
@@ -31,15 +32,12 @@
 
 ## Technologies
 
-* [Node.js v10.15.0 LTS](https://nodejs.org)
-
-* [Express v4.16.4](https://www.npmjs.com/package/express)
-
-* [Express-session v1.15.6](https://www.npmjs.com/package/express-session)
-
-* [MongoDB Atlas v4.0](https://www.mongodb.com/cloud/atlas)
-
-* [MongoDB Compass v1.16.3](https://www.mongodb.com/download-center/compass) on an Azure cloud server.
+* [Node.js v14](https://nodejs.org)
+* [Express v4](https://www.npmjs.com/package/express)
+* [Express-session v1](https://www.npmjs.com/package/express-session)
+* [MongoDB Atlas v4](https://www.mongodb.com/cloud/atlas)
+* [MongoDB Compass v1](https://www.mongodb.com/download-center/compass) on an Azure cloud server.
+* [ejs](https://www.npmjs.com/package/ejs) Embedded JavaScript templates
 
 ## Setup
 
@@ -59,12 +57,16 @@
 
 ## To-do list
 
-1. Go through course and code and comment better. Solve auth error. Best to recheck code and follow from section 9 module 112.
+* Go through course and code and comment better. Solve auth error. Best to recheck code and follow from section 9 module 112.
 
 ## Inspiration
 
 * [NodeJS - The Complete Guide (incl. MVC, REST APIs, GraphQL)](https://www.udemy.com/nodejs-the-complete-guide/)
 
-## Contact
+## :file_folder: License
 
-Repo created by [ABateman](https://www.andrewbateman.org) - feel free to contact me!
+* N/A.
+
+## :envelope: Contact
+
+* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
